@@ -25,18 +25,17 @@
 # OF THIS SOFTWARE, EVEN IF ADVIsed OF THE POSSIBILITY OF SUCH DAMAGE.
 ####
 
-_prettytable_char_top_left="┌"
-_prettytable_char_horizontal="─"
-_prettytable_char_vertical="│"
-_prettytable_char_bottom_left="└"
-_prettytable_char_bottom_right="┘"
-_prettytable_char_top_right="┐"
-_prettytable_char_vertical_horizontal_left="├"
-_prettytable_char_vertical_horizontal_right="┤"
-_prettytable_char_vertical_horizontal_top="┬"
-_prettytable_char_vertical_horizontal_bottom="┴"
-_prettytable_char_vertical_horizontal="┼"
-
+_prettytable_char_top_left="+"
+_prettytable_char_horizontal="-"
+_prettytable_char_vertical="|"
+_prettytable_char_bottom_left="+"
+_prettytable_char_bottom_right="+"
+_prettytable_char_top_right="+"
+_prettytable_char_vertical_horizontal_left="+"
+_prettytable_char_vertical_horizontal_right="+"
+_prettytable_char_vertical_horizontal_top="+"
+_prettytable_char_vertical_horizontal_bottom="+"
+_prettytable_char_vertical_horizontal="+"
 
 # Escape codes
 
