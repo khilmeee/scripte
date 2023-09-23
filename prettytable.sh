@@ -72,8 +72,7 @@ function _prettytable_fix_border_lines() {
 function _prettytable_colorize_lines() {
     local color="$1"
     local range="$2"
-    local ansicolor=""
-eval "ansicolor=\"\${_prettytable_color_${color}}\""
+    local ansicolor="$(eval "echo \${_prettytable_color_${color}}")"
 
     cat - | sed -e "${range}s@\\([^${_prettytable_char_vertical}]\\{1,\\}\\)@"$'\E'"[${ansicolor}m\1"$'\E'"[${_prettytable_color_none}m@g"
 }
